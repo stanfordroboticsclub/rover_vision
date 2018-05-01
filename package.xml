@@ -5,11 +5,15 @@
   <description>Simple package to wrap tools used for vision tasks on the rover.</description>
   <maintainer email="rachel0@stanford.edu">Rachel Gardner</maintainer>
   <author email="rachel0@stanford.edu">Rachel Gardner</author>
+  <maintainer email="phm@stanford.edu">Peter Maldonado</maintainer>
+  <author email="phm@stanford.edu">Peter Maldonado</author>
   <license>BSD</license>
 
   <buildtool_depend>catkin</buildtool_depend>
   <build_depend>roscpp</build_depend>
+  <build_depend>rospy</build_depend>
   <build_depend>std_msgs</build_depend>
   <run_depend>roscpp</run_depend>
+  <run_depend>rospy</run_depend>
   <run_depend>std_msgs</run_depend>
 </package>
