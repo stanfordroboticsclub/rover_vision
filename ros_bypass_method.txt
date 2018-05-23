@@ -1,0 +1,5 @@
+ffmpeg -i /dev/video0 -framerate 20 -video_size 1280x720 -c:v mpeg2video -q:v 20 -pix_fmt yuv420p -g 1 -threads 2 -f mpegts - | nc -l -p 9000
+
+nc 127.0.0.1 9000 | mplayer -benchmark -
+
+
